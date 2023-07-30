@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background: url(img/bg1.jpg); 
+    height: 625px;
+    background-size: cover;
+}
+/* Navigation Bar */
+.nav1{
+    display: flex;
+    /* width: 87rem; */
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo {
+    /* margin: 0px 30px;
+    padding: 10px 20px; */
+   color:brown; 
+   padding: 25px;
+   font-size: 2rem;
+   margin-left: 55px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    width: 78rem;
+}
+
+.nav li {
+    list-style: none;
+    margin-inline: 10px;
+}
+
+.item a{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding: 2px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item a:hover {
+    /* color: #fc8019; */
+    color:brown;
+    /* background-color: white; */
+    border-radius: 20px;
+    transition: 1s;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 134px 75px;
+    background-size: cover;
+}
+
+.home h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.home h3 ,p {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 12px;
+    padding: 2px 20px;
+    border: 2px solid black;
+    background-color: brown;
+    /* background-color:rgb(188, 48, 48); */
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btn:hover {
+    /* color: #fc8019; */
+    color: brown;
+    background-color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* Services Section */
+.services-container{
+    /* background: rgb(248, 248, 248); */
+    background-color: rgb(204, 202, 202);
+}
+#services{
+   margin: 34px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-block-start: 20px;
+}
+
+.services-container h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    /* margin-top: 25px; */
+}
+
+.box{
+    margin-inline: 3px;
+    padding: 34px;
+    width: 15rem;
+    height: 18rem;
+}
+.box img{
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box h2{
+    text-align: center;  
+    font-weight: 300;
+}
+
+/* brand section */
+#brands{
+    margin: 34px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand-container h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+.brand1{
+    width: 15rem;
+    height: 15rem;
+}
+
+.brand1 a img{
+    width: 180px;
+    height: 160px;
+    cursor: pointer;
+    margin: 15px;
+}
+/* footer section */
+
+.footer{
+    background-color: rgb(204, 202, 202);
+    /* background-color: black; */
+    /* height: 150px; */
+    width: 100%;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 55rem;
+    margin-inline: 18rem;
+    padding-block: 5rem;
+    position: relative;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.col h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+.col1{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    /* padding: 7px; */
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* line-height: 2.1rem; */
+    color: rgb(105, 105, 105);;
+    margin: 0.5rem 0px;
+}
+
+.icon{
+    display: flex;
+}   
+
+.icon1{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 24px;
+}
+
+.col img{
+    padding: 7px;
+    width: 158px;
+    height: 61px;
+}
+
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    /* color: white; */
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding: 15px;
+}
